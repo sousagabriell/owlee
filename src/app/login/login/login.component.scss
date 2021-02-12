@@ -1,0 +1,22 @@
+$color-primary : #7b5dff;
+$color-secondary: #930fff;
+
+
+.text-login{
+    padding: 125px 30px 50px;
+}
+h1{
+    font-size: 4em;
+}
+h5{
+    color: $color-secondary;
+}
+
+@media (max-width: 767px){
+    .text-login{
+        padding: 50px 0;
+        flex-direction: column;
+    text-align: center;
+    }
+}
+       
